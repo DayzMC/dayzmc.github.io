@@ -1,11 +1,3 @@
-/* ===================================================================
-    
-    Author          : Valid Theme
-    Template Name   : Avedi - Creative & Digital Agency Multipurpose Template
-    Version         : 1.0
-    
-* ================================================================= */
-
 (function($) {
     "use strict";
 
