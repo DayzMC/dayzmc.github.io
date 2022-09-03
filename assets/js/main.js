@@ -380,9 +380,7 @@
         $(window).on('load', function () {
             $('#site-preloader').delay('200').fadeOut();
         });
-        $("transition").click(function(event){
-        setTimeout(5000);	
-        });
+
         /* ==================================================
             Contact Form Validations
         ================================================== */
@@ -395,12 +393,12 @@
                 $("#message").slideUp(750, function() {
                     $('#message').hide();
 
-                    $('#submit').on('click', function() {
-                        $(this).closest('form').get(0).reset()
-                    // $('#submit')
-                    // .after('<img src="assets/img/ajax-loader.gif" class="loader" />')
-                    // .attr('disabled', 'disabled');
-                });
+                //     $('#submit').on('click', function() {
+                //         $(this).closest('form').get(0).reset()
+                //     // $('#submit')
+                //     // .after('<img src="assets/img/ajax-loader.gif" class="loader" />')
+                //     // .attr('disabled', 'disabled');
+                // });
 
                         // function resetForm($form) {
                         //     $form.find('input:name, input:email, input:phone, input:comments, select, textarea').val('');
