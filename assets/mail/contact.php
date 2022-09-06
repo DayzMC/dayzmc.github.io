@@ -50,7 +50,7 @@ $address = "azazelka1337@gmail.com";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'Contact Form';
+$e_subject = 'Ваша заявка принята, ожидайте звонка';
 
 
 // Configuration option.
